@@ -1,0 +1,168 @@
+
+<html>
+	<head>
+		<title>Upakar Foundation Nepal</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/ionicons.min.css">
+        <link rel="stylesheet" href="css/ita-templates.css">
+        <link rel="shortcut icon" type="image/gif" href="img/logo1.jpg">
+        <!-- <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,700|Roboto:100,300,400,500,700,900" rel="stylesheet"> -->
+        
+    </head>
+    <body class="container">
+         <nav class="navbar navbar-default navbar-static-top ita-nav"><!--A standard navigation bar is created with <nav class="navbar navbar-default">. -->
+            <div class="">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <img src="img/logo1.jpg" alt="index.html">
+                    </a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html"><i class="ion-ios-home"></i></a></li>
+                        <li class="dropdown">
+                            <a href="#" >About <span class="ion-ios-arrow-down"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="about.html">Introduction</a></li>
+                              
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#">Projects <span class="ion-ios-arrow-down"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="project.html">Upcoming Projects</a></li>
+                                <li><a href="project.html">Ongoing Projects</a></li>
+                                <li><a href="project.html">Completed Projects</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="news.html">News & Events</a></li>
+                        <li><a href="notice.html">Notice</a></li>
+                        <li class="dropdown">
+                            <a href="#">Members<span class="ion-ios-arrow-down"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="member.html">Members Detail</a></li>
+                                <li><a href="memberform.html">Membership Form</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" >Gallery <span class="ion-ios-arrow-down"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="album.html">Photo Gallery</a></li>
+                                
+                            </ul>
+                        </li>
+                      
+                        <li><a href="contact.html">Contact</a></li>
+                        <li class="nav-btn"><a href="donate.html">DONATE NOW</a></li>
+                    </ul>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </nav>     
+            <section class="bgGrey sect-header text-wrap">
+                    <div class="row">
+                    <div class="col-xs-12">
+                        <h1 class="colorBlue"> Membership Form </h1>
+                       
+                    </div>
+                </div>
+            </section>
+
+                  <section class="bgGrey sect-pad-top sect-pad-bottom text-wrap">
+                <div class="row">
+                    <!-- Offset means: Move columns to the right using the .col-md-offset-* classes. These classes increase the left margin of a column by * column -->
+                     <div class="col-md-10 col-md-offset-1"> 
+                        <form  class="row " method="POST" action="memberform_insert.php">
+                             <div class="col-md-4">
+                               <div class="form-group">
+                                <label for="fullname" class="colorBlue">Full Name:</label>
+                                    <input type="text" class="form-control" id="fullname" name="name_contact" placeholder="Full Name">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="address" class="colorBlue">Address:</label>
+                                    <input type="Address" name="address_contact" id="address" class="form-control" placeholder="Mailing Address">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="phone" class="colorBlue">Phone Number:</label>
+                                    <input type="text" name="phone_contact" id="phone" class="form-control" placeholder="Phone number">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="bloodgrp" class="colorBlue">Blood Group:</label>
+                                    <input type="text" name="bloodgrp_contact" id="bloodgrp" class="form-control" placeholder="Blood Group">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="occupation" class="colorBlue">Occupation:</label>
+                                    <input type="text" name="occupation_contact" id="occupation" class="form-control" placeholder="Occupation">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="dob" class="colorBlue">Date Of Birth:</label>
+                                    <input type="text" name="dob_contact" id="dob" class="form-control" placeholder="Date Of Birth">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                     <label for="email" class="colorBlue">Email:</label>
+                                    <input type="text" name="mail_contact" id="email" class="form-control" placeholder="Email">
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="col-md-12">
+                               <button class="btn btn-danger btn-big pull-right" name="Register" type="Register">REGISTER</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+             <footer>
+                <div class="row text-center">
+                    <div class="col-xs-12 footer-inner">
+                        <ul class="list-unstyled inline-list">
+                            <li><a href="news.html">News & Events</a></li>
+                            <li><a href="notice.html">Notice</a></li>
+                             <li><a href="member.html">Member</a></li>
+                            <li><a href="album.html">Photo Gallery</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="donate.html">Donate</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-xs-12 footer-inner">
+                        <ul class="social-list inline-list">
+                            <li>
+                                <a href="#" title=""> <i class="ion-social-facebook"></i> FACEBOOK </a>
+                            </li>
+                            <li>
+                                <a href="#" title=""> <i class="ion-social-twitter"></i> TWITTER </a>
+                            </li>
+                            <li>
+                                <a href="#" title=""> <i class="ion-social-googleplus"></i> GOOGLE+ </a>
+                            </li>
+                           
+                            <li>
+                                <a href="#" title=""> <i class="ion-social-instagram-outline"></i> INSTAGRAM</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </footer>
+            </body></html>
+            
